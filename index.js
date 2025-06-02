@@ -10,5 +10,5 @@ app.listen(port, () => {
 
 app.get("/", (req, res, next) => {
     res.status(200);
-    res.send("Hello world!");
+    res.send("This is a test of changes to the server world!");
 });
